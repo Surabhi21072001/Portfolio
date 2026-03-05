@@ -5,6 +5,14 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "AI Resume Intelligence Agent",
+    subtitle: "Agentic AI",
+    description:
+      "Built an LLM-powered agent that analyzes resumes against job descriptions to determine candidate–role fit. The system extracts skills and experience, performs skill-gap analysis, and generates structured insights including job-fit scores and improvement suggestions. Results are automatically stored in an Airtable CRM using OpenAPI-based tool integrations",
+    Github: "https://chatgpt.com/g/g-69a86180ab0481919ad9643c0d4b79f5-intelligent-resume-parser",
+  },
+  {
+    id: 2,
     title: "Rainfall Prediction using SARIMA and OpenAI",
     subtitle: "Time-Series Analysis, Forecasting",
     description:
@@ -12,7 +20,7 @@ const projects = [
     Github: "https://github.com/Surabhi21072001/Rainfall-prediction-using-SARIMA-and-Openai",
   },
   {
-    id: 2,
+    id: 3,
     title: "Voice-to-Text Summarization and Patient Interaction System",
     subtitle: "Generative AI, Chatbot Development",
     description:
@@ -20,7 +28,7 @@ const projects = [
     Github: "https://github.com/Surabhi21072001/health-voice-to-text-transcribe",
   },
   {
-    id: 3,
+    id: 4,
     title: "Loan Approval Prediction System with Interactive Dashboard",
     subtitle: "Data Analysis · Data Visualization",
     description:
@@ -29,7 +37,7 @@ const projects = [
       "https://github.com/Surabhi21072001/Loan-Approval-Prediction-System-with-Interactive-Dashboard-",
   },
   {
-    id: 4,
+    id: 5,
     title: "AI-Powered Image Enhancement System",
     subtitle: "AI Image Enhancement, Flask",
     description:
@@ -37,7 +45,7 @@ const projects = [
     Github: "https://github.com/Surabhi21072001/enhancor",
   },
   {
-    id: 5,
+    id: 6,
     title: "CMU Transportation Comparison Web App",
     subtitle: "Web Scrapping",
     description:
@@ -45,7 +53,7 @@ const projects = [
     Github: "https://github.com/sanathmahesh/DFP-TeamBrown",
   },
   {
-  id: 6,
+  id: 7,
   title: "Full Stack Development Projects",
   subtitle: "MERN Stack, API Integration, Deployment",
   description:
