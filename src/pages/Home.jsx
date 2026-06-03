@@ -46,7 +46,7 @@ export default function Home() {
         >
           <TypeAnimation
             sequence={[
-              "Software Development Engineering",
+              "Software Development",
               2000,
               "",
               "Data Science",
