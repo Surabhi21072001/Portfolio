@@ -5,24 +5,21 @@ export default function Skills() {
   const skills = [
     {
       title: "Programming Languages",
-      items: ["Python", "JavaScript", "SQL", "C++", "Java"],
+      items: ["Python", "JavaScript", "SQL", "Java", "TypeScript"],
     },
     {
       title: "Web and API Development",
-      items: ["REST APIs", "Flask", "MERN Stack (React.js, Node.js, Express, MongoDB)"],
+      items: ["REST APIs", ".NET (ASP.NET Core)", "C#", "Flask", "MERN Stack (React.js, Node.js, Express, MongoDB)"],
     },
     {
-      title: "Database and Cloud",
-      items: ["MySQL", "MSSQL", "MongoDB", "Firebase", "APIM", "Azure DevOps"],
+      title: "Databases",
+      items: ["MySQL", "MSSQL", "MongoDB", "Firebase", "Oracle", "Cosmos"],
     },
     {
       title: "Data Science",
       items: [
         "Machine Learning",
-        "Predictive Analytics",
         "Predictive Modeling",
-        "Regression Analysis",
-        "Econometrics",
         "Generative AI",
         "NLP",
         "Optical Character Recognition (OCR)",
@@ -30,8 +27,23 @@ export default function Skills() {
       ],
     },
     {
-      title: "Data Analytics",
-      items: ["Data Visualization", "Power BI", "Plotly Dash"],
+      title: "Cloud and DevOps",
+      items: [
+        "AWS (EC2, S3, RDS, Lambda, IAM, CloudWatch, API Gateway, VPC, BedRock, SageMaker)",
+        "Azure (Azure DevOps, APIM)",
+        "CI/CD Pipelines",
+        "Docker",
+      ],
+    },
+    {
+      title: "Agentic Systems",
+      items: [
+        "LangChain",
+        "Temporal",
+        "CrewAI",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Tooling (Replit AI, Kiro, Github Copilot)",
+      ],
     },
   ];
 

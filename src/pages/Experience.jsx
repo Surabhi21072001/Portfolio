@@ -5,6 +5,17 @@ import { Briefcase, Calendar } from "lucide-react";
 export default function Experience() {
   const workExperience = [
     {
+      title: "Software Engineer Intern",
+      company: "ServiceLink",
+      location: "",
+      duration: "May 2026 – Present",
+      points: [
+        "Developed and enhanced automation workflows and business rules on an enterprise automation platform to improve operational efficiency.",
+        "Built REST APIs using .NET C# microservices architecture, working with Azure DevOps and Cosmos DB.",
+        "Supported browser automation solutions using Playwright and leveraged GitHub Copilot to accelerate development and code quality.",
+      ],
+    },
+    {
       title: "Associate Consultant",
       company: "Ernst and Young (EY)",
       location: "Mumbai, India",
